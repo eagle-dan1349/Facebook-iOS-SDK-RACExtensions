@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'Facebook-iOS-SDK-RACExtensions', :exclusive => true do
+  pod "Facebook-iOS-SDK-RACExtensions", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
