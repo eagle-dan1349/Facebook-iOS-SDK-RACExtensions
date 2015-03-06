@@ -4,8 +4,8 @@ PODS:
   - Facebook-iOS-SDK (3.23.0):
     - Bolts (~> 1.0)
   - Facebook-iOS-SDK-RACExtensions (0.0.1):
-    - Facebook-iOS-SDK
-    - ReactiveCocoa
+    - Facebook-iOS-SDK (~> 3.23.0)
+    - ReactiveCocoa (~> 2.4.7)
   - ReactiveCocoa (2.4.7):
     - ReactiveCocoa/UI (= 2.4.7)
   - ReactiveCocoa/Core (2.4.7):
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   Bolts: dd9fb8433d67f5acc3b6b4d1379bbc5513d716c1
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
   Facebook-iOS-SDK: 3d65f685348b789e46a9aacf92bfa85b60b63755
-  Facebook-iOS-SDK-RACExtensions: 174da5d6f1d12bf63cf0051221f03d2994efa403
+  Facebook-iOS-SDK-RACExtensions: a10182039d4758e37aded1f4ae71c86d1b1d9f8a
   ReactiveCocoa: 313fc53cc9aeb2bbbc3f5f13c7eac16478d9af8f
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
 
