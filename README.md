@@ -5,11 +5,33 @@
 [![License](https://img.shields.io/cocoapods/l/Facebook-iOS-SDK-RACExtensions.svg?style=flat)](http://cocoadocs.org/docsets/Facebook-iOS-SDK-RACExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/Facebook-iOS-SDK-RACExtensions.svg?style=flat)](http://cocoadocs.org/docsets/Facebook-iOS-SDK-RACExtensions)
 
-## Usage
+Facebook-iOS-SDK-RACExtensions are a set of tools for [Facebook SDK for iOS](https://github.com/facebook/facebook-ios-sdk) aimed to bring work with Facebook to a better [Reactive World](https://github.com/ReactiveCocoa/ReactiveCocoa).
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Getting started
+
+RACExtesions for Facebook iOS SDK provide convince around block-based methods of SDK.
+Returned signals are cold (unles otherwise is stated) and start automatically upos subscription.
+Result of requests, authorisation, etc are sent back to you the subscriber.
+
+```Objective-C
+FBSession* session = 
+[[FBSesion alloc] [[FBSession alloc] initWithPermissions:@[
+                                                            @"public_profile",
+                                                            @"email",
+                                                            @"user_photos",
+                                                            @"user_birthday"]];
+
+[[session rac_open] 
+ subscribeNext:^(RACTuple* sessionAndState)
+ {
+    //A tuple with (FBSession, FBSessionState)
+ }
+        error:^(NSError* error)
+ {
+    //Error if any
+ }];
+```
 
 ## Installation
 
@@ -26,3 +48,4 @@ eagle-dan1349, eagle.dan.1349@gmail.com
 
 Facebook-iOS-SDK-RACExtensions is available under the MIT license. See the LICENSE file for more info.
 
+Pull requests welcome!

@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		01009CBF27F8E016DAAADD8F /* Pods-Facebook-iOS-SDK-RACExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook-iOS-SDK-RACExtensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook-iOS-SDK-RACExtensions/Pods-Facebook-iOS-SDK-RACExtensions.release.xcconfig"; sourceTree = "<group>"; };
-		017CD9A01A99A768D7A0F0F0 /* Facebook-iOS-SDK-RACExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = "Facebook-iOS-SDK-RACExtensions.podspec"; path = "../Facebook-iOS-SDK-RACExtensions.podspec"; sourceTree = "<group>"; };
+		017CD9A01A99A768D7A0F0F0 /* Facebook-iOS-SDK-RACExtensions.podspec.json */ = {isa = PBXFileReference; explicitFileType = text.json; includeInIndex = 1; name = "Facebook-iOS-SDK-RACExtensions.podspec.json"; path = "../Facebook-iOS-SDK-RACExtensions.podspec.json"; sourceTree = "<group>"; };
 		1C1564B2838DAC17CECF6FCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55A52E2B6E166012C98499C1 /* libPods-Facebook-iOS-SDK-RACExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Facebook-iOS-SDK-RACExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Facebook-iOS-SDK-RACExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook-iOS-SDK-RACExtensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +109,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				017CD9A01A99A768D7A0F0F0 /* Facebook-iOS-SDK-RACExtensions.podspec */,
+				017CD9A01A99A768D7A0F0F0 /* Facebook-iOS-SDK-RACExtensions.podspec.json */,
 				1C1564B2838DAC17CECF6FCE /* README.md */,
 				F8C48FE347B45BBCB5147128 /* LICENSE */,
 			);
