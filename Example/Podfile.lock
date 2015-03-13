@@ -13,7 +13,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.4.7)
   - ReactiveCocoa/UI (2.4.7):
     - ReactiveCocoa/Core
-  - Specta (0.3.2)
+  - Specta (0.4.0)
 
 DEPENDENCIES:
   - Expecta
@@ -30,6 +30,6 @@ SPEC CHECKSUMS:
   Facebook-iOS-SDK: 3d65f685348b789e46a9aacf92bfa85b60b63755
   Facebook-iOS-SDK-RACExtensions: a10182039d4758e37aded1f4ae71c86d1b1d9f8a
   ReactiveCocoa: 313fc53cc9aeb2bbbc3f5f13c7eac16478d9af8f
-  Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
+  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
 
 COCOAPODS: 0.35.0
