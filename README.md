@@ -7,6 +7,8 @@
 
 Facebook-iOS-SDK-RACExtensions are a set of tools for [Facebook SDK for iOS](https://github.com/facebook/facebook-ios-sdk) aimed to bring work with Facebook to a better [Reactive World](https://github.com/ReactiveCocoa/ReactiveCocoa).
 
+# WARNING
+After Facebook SDK updated to version 4 with new architecture, this component is OUTDATED, for compatibility with new FBSDK take a look at [new extensions pack](https://github.com/eagle-dan1349/FBSDK-RACExtensions)
 
 ## Getting started
 
@@ -16,7 +18,7 @@ Result of requests, authorisation, etc are sent back to you the subscriber.
 
 ```Objective-C
 FBSession* session = 
-[[FBSesion alloc] [[FBSession alloc] initWithPermissions:@[
+[[FBSession alloc] initWithPermissions:@[
                                                             @"public_profile",
                                                             @"email",
                                                             @"user_photos",

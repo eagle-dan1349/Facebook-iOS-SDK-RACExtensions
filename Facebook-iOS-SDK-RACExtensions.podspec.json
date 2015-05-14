@@ -5,7 +5,7 @@
         "type": "MIT",
         "file": "LICENSE"
     },
-    "summary"  : "For thouse of you who love ReactiveCocoa and have to deal with Facebook, salvation is coming.",
+    "summary"  : "DEPRECATED: Use FBSDK-RACExtensions podspec instead",
     "homepage" : "https://github.com/eagle-dan1349/Facebook-iOS-SDK-RACExtensions",
     "authors"  :
     {
